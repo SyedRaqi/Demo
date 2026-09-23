@@ -1,0 +1,7 @@
+"use client";
+
+import { AdminResource } from "@/components/admin-resource";
+
+export default function CommunityStoriesAdminPage() {
+  return <AdminResource endpoint="/api/admin/community-stories" eyebrow="CONTENT / COMMUNITY STORIES" title="Community stories" description="Give people and neighbourhood moments a permanent editorial home." emptyTitle="No community stories yet." emptyText="Add an approved story about people, volunteers or community achievements." fields={[{ key: "slug", label: "Slug", required: true }, { key: "title_en", label: "Title EN", required: true }, { key: "title_ur", label: "Title UR", rtl: true }, { key: "summary_en", label: "Summary EN", type: "textarea" }, { key: "summary_ur", label: "Summary UR", type: "textarea", rtl: true }, { key: "content_en", label: "Story EN", type: "textarea" }, { key: "content_ur", label: "Story UR", type: "textarea", rtl: true }, { key: "cover_image_url", label: "Cover image URL", type: "url" }, { key: "published_at", label: "Published at", type: "text" }, { key: "is_published", label: "Published", type: "checkbox" }]} defaults={{ slug: "", title_en: "", title_ur: "", summary_en: "", summary_ur: "", content_en: "", content_ur: "", cover_image_url: "", published_at: "", is_published: false }} summary={(record) => String(record.title_en || "Untitled community story")} status={(record) => record.is_published ? "Published" : "Draft"} />;
+}

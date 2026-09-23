@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
 
-const fields = ["slug", "title_en", "title_ur", "summary_en", "summary_ur", "content_en", "content_ur", "cover_image_url", "category", "location_en", "location_ur", "published_at", "is_published"] as const;
+const fields = ["slug", "title_en", "title_ur", "subtitle_en", "subtitle_ur", "summary_en", "summary_ur", "content_en", "content_ur", "cover_image_url", "category", "location_en", "location_ur", "author", "published_at", "is_published", "featured", "breaking", "pinned"] as const;
 type UpdatePayload = Partial<Record<(typeof fields)[number], unknown>>;
 
 async function getAdminClient() {

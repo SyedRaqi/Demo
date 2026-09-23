@@ -1,0 +1,7 @@
+"use client";
+
+import { AdminResource } from "@/components/admin-resource";
+
+export default function PhotoStoriesAdminPage() {
+  return <AdminResource endpoint="/api/admin/photo-stories" eyebrow="CONTENT / PHOTO STORIES" title="Photo stories" description="Publish visual stories with bilingual captions." emptyTitle="No photo stories yet." emptyText="Create a visual story after an approved event or activity." fields={[{ key: "slug", label: "Slug", required: true }, { key: "title_en", label: "Title EN", required: true }, { key: "title_ur", label: "Title UR", rtl: true }, { key: "description_en", label: "Description EN", type: "textarea" }, { key: "description_ur", label: "Description UR", type: "textarea", rtl: true }, { key: "cover_image_url", label: "Cover image URL", type: "url" }, { key: "category", label: "Category" }, { key: "photo_urls", label: "Photo URLs (JSON array)", type: "textarea" }, { key: "is_published", label: "Published", type: "checkbox" }]} defaults={{ slug: "", title_en: "", title_ur: "", description_en: "", description_ur: "", cover_image_url: "", category: "community", photo_urls: "[]", is_published: false }} summary={(record) => String(record.title_en || "Untitled photo story")} status={(record) => record.is_published ? "Published" : "Draft"} />;
+}
