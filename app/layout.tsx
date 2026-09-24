@@ -3,6 +3,7 @@ import "./globals.css";
 import "./newsroom.css";
 import "./reference-home.css";
 import "./reference-type.css";
+import "./reference-composition.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"),
