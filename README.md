@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Madeena Welfare Society
 
 A bilingual (English and Urdu) public website foundation for Madeena Welfare Society, Bhatkal, built with Next.js, React, TypeScript, Tailwind CSS, and Lucide React.
@@ -71,3 +72,7 @@ Deploy to Vercel and add `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_PUBLI
 ## Routes
 
 Public pages use `/en/...` and `/ur/...`. Admin pages use `/admin/...` and require authentication. `/sitemap.xml` and `/robots.txt` are generated automatically.
+=======
+# Demo
+Demo website
+>>>>>>> 88cd1334cf24a3f4715bc32665170a48b9d4e365

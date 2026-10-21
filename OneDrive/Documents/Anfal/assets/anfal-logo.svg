@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 250" role="img" aria-labelledby="title desc">
+  <title id="title">Anfal Enterprises</title>
+  <desc id="desc">Anfal Enterprises, Wholesale Distributor for FMCG</desc>
+  <defs>
+    <linearGradient id="red" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff1717"/><stop offset="1" stop-color="#d90000"/></linearGradient>
+    <linearGradient id="navy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#062b5f"/><stop offset="1" stop-color="#001940"/></linearGradient>
+  </defs>
+  <g transform="translate(16 18)">
+    <path fill="url(#navy)" d="M2 34c0-8 6-14 14-14h25c13 0 24 8 28 20l18 58h66c9 0 16 7 16 16v5H78c-14 0-26-9-30-22L31 50H16C8 50 2 43 2 34z"/>
+    <path fill="url(#navy)" d="M44 43h43v40H44z"/>
+    <path fill="url(#navy)" d="M44 88h43v42H44z"/>
+    <path fill="url(#navy)" d="M44 130h43v33H44z"/>
+    <path fill="#fff" d="M44 85h31v12H56v11h19v12H44z"/>
+    <path fill="url(#red)" d="M87 7h38c5 0 9 2 13 5l39 24v39h-51V54h-39z"/>
+    <path fill="url(#red)" d="M87 84h90v45H87z"/>
+    <path fill="#fff" d="M112 35h22v12h-10v10h10v12h-22z"/>
+    <path fill="#fff" d="M87 97h50v12h-37v10h37v10H87z"/>
+    <circle cx="59" cy="181" r="18" fill="url(#navy)"/><circle cx="143" cy="181" r="18" fill="url(#navy)"/>
+  </g>
+  <text x="245" y="132" fill="url(#red)" font-family="Arial, Helvetica, sans-serif" font-size="105" font-weight="900" letter-spacing="-7">ANFAL</text>
+  <text x="595" y="132" fill="url(#navy)" font-family="Arial, Helvetica, sans-serif" font-size="92" font-weight="900" letter-spacing="-5">ENTERPRISES</text>
+  <text x="245" y="190" fill="#161616" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" letter-spacing="2">WHOLESALE DISTRIBUTOR FOR FMCG</text>
+  <path d="M20 229h1155" stroke="#ed1717" stroke-width="10" stroke-linecap="round"/>
+</svg>
