@@ -1,38 +1,43 @@
 <div align="center">
 
-<img src="hero-3d.svg" alt="Madeena Welfare Society — animated 3D hero banner" width="100%"/>
+<img src="madeena-banner.svg" alt="Madeena Welfare Society: animated 3D rotating eight-pointed star" width="100%"/>
 
 <br/>
 
-![Website](https://img.shields.io/badge/website-Madeena%20Welfare%20Society-00e5ff?style=for-the-badge&labelColor=0d0b2a)
-![Status](https://img.shields.io/badge/status-live%20demo-7c4dff?style=for-the-badge&labelColor=0d0b2a)
-![License](https://img.shields.io/badge/license-Unlicense-ff4081?style=for-the-badge&labelColor=0d0b2a)
+![Website](https://img.shields.io/badge/WEBSITE-Madeena%20Welfare%20Society-d4af37?style=for-the-badge&labelColor=06261e)
+![Status](https://img.shields.io/badge/STATUS-live%20demo-10b981?style=for-the-badge&labelColor=06261e)
+![License](https://img.shields.io/badge/LICENSE-Unlicense-f6e27a?style=for-the-badge&labelColor=06261e)
 
-**The official website of the Madeena Welfare Society, brought to life in three dimensions.**
+### ✦ &nbsp;Serving the community, one page at a time&nbsp; ✦
 
-[About](#-about) · [Run it](#-run-it-locally) · [Structure](#-project-structure) · [Contribute](#-contribute)
+[✦ About](#-about) &nbsp;·&nbsp; [✦ Run it](#-run-it-locally) &nbsp;·&nbsp; [✦ Structure](#-project-structure) &nbsp;·&nbsp; [✦ Contribute](#-contribute)
 
 </div>
 
-<img src="divider-3d.svg" alt="" width="100%"/>
+<img src="madeena-divider.svg" alt="" width="100%"/>
 
-## 🧊 About
+## ✦ About
 
 **Madeena Welfare Society** is a website built by [@SyedRaqi](https://github.com/SyedRaqi). This repository holds its source: the pages, content and assets that make up the site.
 
-The banner above is a rotating cube drawn entirely with animated SVG. No images, no GIFs, no scripts, just geometry that moves.
+The banner above is a real 3D object. An eight-pointed star is extruded, lit and rotated frame by frame using nothing but animated SVG: no GIFs, no scripts, no external images. The golden motes orbiting it and the slowly drifting geometric pattern behind it are SVG too.
 
-## ✨ What's inside
+<details>
+<summary><b>✦ What's on the site</b> &nbsp;<i>(click to open)</i></summary>
 
-| Face | What you get |
-| :--- | :--- |
-| 🔷 **Front** | A clean, browser-ready website you can open straight away |
-| 🟣 **Side** | Content and assets organised in their own folder |
-| 🌸 **Top** | Open source under the Unlicense: use it, adapt it, share it |
+<br/>
 
-> ✏️ *Replace this table with the site's real sections, for example About Us, Our Work, Donate or Contact.*
+| ✦ | Section | Purpose |
+| :-: | :--- | :--- |
+| 🏠 | **Home** | The front door to the Society |
+| 🤲 | **Our Work** | What the Society does for the community |
+| 📞 | **Contact** | How to reach and support the Society |
 
-## 🚀 Run it locally
+> ✏️ *These rows are placeholders. Replace them with the site's real pages.*
+
+</details>
+
+## ✦ Run it locally
 
 ```bash
 # 1. Clone the repository
@@ -49,7 +54,7 @@ python -m http.server 8000
 
 No build step is assumed. If the project adds a framework later, update these steps to match.
 
-## 🗂️ Project structure
+## ✦ Project structure
 
 ```text
 Demo/
@@ -60,9 +65,9 @@ Demo/
 └── README.md             # you are here
 ```
 
-## 🤝 Contribute
+## ✦ Contribute
 
-Ideas and fixes are welcome.
+Improvements are welcome.
 
 1. **Fork** the repository
 2. **Create** a branch: `git checkout -b feature/my-idea`
@@ -70,14 +75,14 @@ Ideas and fixes are welcome.
 4. **Push** the branch: `git push origin feature/my-idea`
 5. **Open** a pull request
 
-## 📜 License
+## ✦ License
 
 Released under the [Unlicense](LICENSE). It is free and unencumbered software, so use it however you like.
 
-<img src="assets/divider-3d.svg" alt="" width="100%"/>
+<img src="madeena-divider.svg" alt="" width="100%"/>
 
 <div align="center">
 
-**Madeena Welfare Society** · Built by [Syed Raqi](https://github.com/SyedRaqi) · If this helped, drop a ⭐
+**Madeena Welfare Society** &nbsp;✦&nbsp; Built by [Syed Raqi](https://github.com/SyedRaqi) &nbsp;✦&nbsp; If this helped, leave a ⭐
 
 </div>
